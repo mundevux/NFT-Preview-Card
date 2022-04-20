@@ -506,6 +506,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 0.5rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -579,6 +583,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .font-\[\'Outfit\'\] {
   font-family: 'Outfit';
 }
@@ -598,6 +606,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1rem;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -615,6 +628,19 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-Cyan {
   --tw-text-opacity: 1;
   color: hsl(178 100% 50% / var(--tw-text-opacity));
+}
+
+.text-Verydarkblue\(line\) {
+  --tw-text-opacity: 1;
+  color: hsl(215 32% 27% / var(--tw-text-opacity));
+}
+
+.opacity-100 {
+  opacity: 1;
+}
+
+.opacity-40 {
+  opacity: 0.4;
 }
 
 .shadow {
@@ -642,4 +668,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .shadow-Verydarkblue\(mainBG\) {
   --tw-shadow-color: hsl(217, 54%, 11%);
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+.hover\:bg-Cyan:hover {
+  --tw-bg-opacity: 1;
+  background-color: hsl(178 100% 50% / var(--tw-bg-opacity));
 }
